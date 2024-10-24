@@ -32,7 +32,9 @@ Even if you wish to build for Ethereum, every blockchain developer should go thr
 <br>
 This amount of knowledge is enough for you to start contributing in open-source projects and apply for programmes like [Summer of Bitcoin](https://www.summerofbitcoin.org/).
 <br>
+
 ## Ethereum
+
 Bitcoin was created as a decentralised p2p cash system or a 'cryptocurrency'. It was evident that the benefits of a public blockchain could used far beyond just money. Ethereum was developed with the purpose of adding smart contracts onto the blockchain. The EVM is turing complete machine that can run any logic and execute it with the benefits of a blockchain.
 <br>
 <br>
@@ -44,11 +46,11 @@ Understanding the basics of Ethereum is enough to start Dapp development but the
 - [Solidity and Web3 Ecosystem](#web3-resources)
 - [EVM and Security](#evm-and-security)
 
-### Web2 Resources
-***
+## Web2 Resources
+
 A Decentralised Application or DApp is just a normal web app with a blockchain like Ethereum serving as its backend. Hence, building a good DApp requires skills in traditional web2 development as well. A DApp consists of smart contracts that can be interacted with through a front-end. Usually these DApps also have backend architechture to handle various SDKs, libraries and even databases.
 
-#### List of Web2 Resources:
+### List of Web2 Resources:
 1. Basics of HTML, CSS (for building beautiful frontends).
 2. JavaScript Basics : Variables, Data Types, if-else blocks, Switch, Loops, Functions, async functions, callbacks : https://www.w3schools.com/js/
 3. Node.js basics: node, npm, package.json
@@ -58,8 +60,8 @@ A Decentralised Application or DApp is just a normal web app with a blockchain l
 Also learning JavaScript frontend frameworks like React.js, Next.js would be great to build more complex applications.
 
 
-### Web3 Resources
-***
+## Web3 Resources
+
 The most important component of a DApp is the smart contract. The most popular language to write smart contracts in is [Solidity](https://docs.soliditylang.org/en/v0.8.18/). The best way to learn a new language is through hands-on practice and thats why [CryptoZombies](https://cryptozombies.io/) is recommended as it teaches solidity by building a simple game while explaining various concepts like data-types, arrays, functions, etc. 
 <br>
 [Solidity by example](https://solidity-by-example.org/) is also a great resource to learn basic syntax and concepts of the language. 
@@ -72,7 +74,7 @@ By far the most complete and high quality tutorial on Solidity development is by
 He also has a video with detailed guidance on [How to become a Blockchain Engineer](https://youtu.be/e1N4aWIJMN0)
 <br>
 <br>
-UPDATE
+**UPDATE**
 <br>
 Since writing this, Patrick Collins has uploaded another course for foundry this time which is updated to all the latest alpha. The previous course is focused on hardhat and javascript while this one deals completely with solidity. You can choose which one to follow according to your convenience. 
 <br>
@@ -105,8 +107,8 @@ Knowing about various DeFi protocols and how they work is important. Apart from 
 * [Curve](https://curve.readthedocs.io/_/downloads/en/latest/pdf/)
 * [Uniswap v3](https://uniswap.org/whitepaper-v3.pdf)
 
-### EVM and Security
-***
+## EVM and Security
+
 Learning solidity is not enough be an expert in writing smart contracts. Deploying and interacting with these contracts require gas, so as a developer you should optimise your code to consume th eleast amount of gas possibel. Also since smart contracts are immutable and transparent, anyone can find vulnerabilities in your code and exploit it. Therefore, making sure that your contract is secure is a top priority for any protocol.
 <br>
 <br>
@@ -146,8 +148,8 @@ The best way to learn advanced topics is to learn from the best. The greatest mi
 * [@PatrickAlphaC](https://twitter.com/PatrickAlphaC)
 * [@prady_v](https://twitter.com/prady_v)
   
-### ZK and Cryptography
-***
+## ZK and Cryptography
+
 Apart from learning blockchain concpets and gaining expertise in soldity and EVM, other fields like Zero-Knowledge cryptograohy are also gaining main stream traction. If you like math and want to build a career in these niche, you need to be very skilled with advanced techincal concepts and a passion for research. There are many privacy and scaling focused projects that are actively looking for skilled zk engineers.
 <br>
 <br>
@@ -175,6 +177,24 @@ More resources:
 * [Constructing zk-SNARKS](https://jtriley.substack.com/p/constructing-zk-snark-circuits)
 * [zk Jargon Decoder](https://nmohnblatt.github.io/zk-jargon-decoder/foreword.html)
   
+## Layer Ns
+
+Blockchain technology is organized into various layers, each serving distinct roles. These layers enhance modularity, simplify development, and improve scalability, making it easier to build and manage blockchain systems. 
+
+To learn more about different layers, you can refer to:
+* [Making Sense of Layer 2 - Josh Stark](https://archive.devcon.org/archive/watch/4/making-sense-of-layer-2/?tab=YouTube)
+* [Layer-1 and Layer-2 Blockchain Scaling Solutions](https://www.gemini.com/cryptopedia/blockchain-layer-2-network-layer-1-network)
+
+## Rollups
+
+To tackle the scaling problem (which was the reason for the LayeNs' formation), we use the concept of Rollups. Rollups are a scaling solution which work by processing transcation off the main chain, which are bundled up into a single, smaller transaction and then executed on the main chain.
+
+Read more about it in this blog :
+* [An Incomplete Guide to Rollups - Vitalik Buterin](https://vitalik.eth.limo/general/2021/01/05/rollup.html)
+* [Alchemy's guide to Rollups](https://www.alchemy.com/overviews/optimistic-rollups)
+
+
+
 ***
 The industry is constantly growing and the only way to keep up is constantly learning. This repo is fileld with a lot of resources but there is a lot more content out there that's just as good. If you feel like this repo misses any crucial resources or you'd like to suggest some additional material then feel free to make a Pull Request. Let's keep this resource list active and up to date so it benefits anyone reading this.
 <br>
